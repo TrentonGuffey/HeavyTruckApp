@@ -7,7 +7,7 @@ namespace HeavyTruckApp
 {
     public partial class Form1 : Form
     {
-        private readonly string connectionString = @"Data Source=LAPTOP-G0671EM\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+        private readonly string connectionString = @"Data Source="Computer_Name"\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
         private readonly CustomQueries customQueries;
 
         public Form1()
